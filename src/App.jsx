@@ -1,4 +1,5 @@
-import HeroSection from './components/navbar/HeroSection';
+import Carrusel from './components/carrusel/Carrusel';
+import HeroSection from './components/hero/HeroSection';
 import Navbar from './components/navbar/Navbar';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <Carrusel />
     </>
   );
 }
