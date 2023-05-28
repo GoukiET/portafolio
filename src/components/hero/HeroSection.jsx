@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className='mt-[15px] font-mono text-lg'>
         <span>Hi! I'm Sebastián 👋</span>
       </div>
-      <div className='font-mono font-bold  text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl'>
+      <div className='font-mono font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl'>
         <span>Full Stack Developer</span>
       </div>
     </div>

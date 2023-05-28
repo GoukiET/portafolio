@@ -17,7 +17,7 @@ import 'swiper/css';
 const Carrusel = () => {
   SwiperCore.use([Autoplay]);
   return (
-    <div className='container pl-2 flex md:pl-96 md:w-4/5 justify-between'>
+    <div className='container flex md:w-4/5 m-auto'>
       <Swiper
         loop={true}
         autoplay={{ delay: 5000, disableOnInteraction: false }}

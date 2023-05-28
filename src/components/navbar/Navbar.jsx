@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className='flex p-5 justify-between font-mono text-[15px] md:w-4/5 m-auto border-b border-b-zinc-950'>
+    <div className='flex p-5 justify-between font-mono text-[13px] sm:text-[15px] md:w-4/5 m-auto border-b border-b-zinc-950'>
       <div className='container flex'>
         <a>
           <svg
