@@ -14,7 +14,7 @@ const Navbar = () => {
         <span>scubillosq@gmail.com</span>
       </div>
       <div className='container flex gap-2 justify-end'>
-        <a href=''>LinkeIn</a>
+        <a href=''>LinkedIn</a>
         <span> / </span>
         <a href=''>Github</a>
       </div>
