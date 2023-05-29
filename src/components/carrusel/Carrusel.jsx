@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
+import { useState, useEffect } from 'react';
 import Html5 from '../../assets/images/tech/html5.svg';
 import Css3 from '../../assets/images/tech/css3.svg';
 import Sass from '../../assets/images/tech/sass.svg';
@@ -16,13 +17,26 @@ import 'swiper/css';
 
 const Carrusel = () => {
   SwiperCore.use([Autoplay]);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  });
+  console.log(windowWidth);
   return (
-    <div className='container flex md:w-4/5 m-auto'>
+    <div className='container flex md:w-4/5 m-auto mt-[40px]'>
       <Swiper
+        centeredSlides
         loop={true}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
-        spaceBetween={50}
-        slidesPerView={4}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        spaceBetween={10}
+        slidesPerView={windowWidth >= 1100 ? 3.7 : 4}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
