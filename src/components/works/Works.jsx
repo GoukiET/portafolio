@@ -19,7 +19,9 @@ const Works = () => {
                 alt='Sunset in the mountains'
               />
               <div class='px-6 py-4'>
-                <div class='font-bold text-xl mb-2'>The Coldest Sunset</div>
+                <div class='font-bold text-xl mb-2'>
+                  Ecommerce Sickbangershop
+                </div>
                 <p class='text-gray-700 text-base'>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Voluptatibus quia, nulla! Maiores et perferendis eaque,
@@ -49,57 +51,75 @@ const Works = () => {
             </div>
           </a>
 
-          <div class='max-w-sm rounded overflow-hidden shadow-lg'>
-            <img class='w-full' src={Dashboard} alt='Sunset in the mountains' />
-            <div class='px-6 py-4'>
-              <div class='font-bold text-xl mb-2'>The Coldest Sunset</div>
-              <p class='text-gray-700 text-base'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
+          <a
+            className='hover:scale-105 hover:animate-pulse'
+            href='https://dashboard-grupo2.netlify.app'
+            target='_blank'
+          >
+            <div class='max-w-sm rounded overflow-hidden shadow-lg'>
+              <img
+                class='w-full'
+                src={Dashboard}
+                alt='Sunset in the mountains'
+              />
+              <div class='px-6 py-4'>
+                <div class='font-bold text-xl mb-2'>
+                  Aplicación Dashboard Clima
+                </div>
+                <p class='text-gray-700 text-base'>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                  exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div class='px-6 pt-4 pb-2'>
+                <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                  HTML5
+                </span>
+                <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                  CCS
+                </span>
+                <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                  JavaScript
+                </span>
+                <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                  ChartJS
+                </span>
+                <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                  Api REST
+                </span>
+              </div>
             </div>
-            <div class='px-6 pt-4 pb-2'>
-              <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                HTML5
-              </span>
-              <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                CCS
-              </span>
-              <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                JavaScript
-              </span>
-              <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                ChartJS
-              </span>
-              <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                Api REST
-              </span>
-            </div>
-          </div>
+          </a>
 
-          <div class='max-w-sm rounded overflow-hidden shadow-lg'>
-            <img class='w-full' src={Landing} alt='Sunset in the mountains' />
-            <div class='px-6 py-4'>
-              <div class='font-bold text-xl mb-2'>The Coldest Sunset</div>
-              <p class='text-gray-700 text-base'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
+          <a
+            className='hover:scale-105 hover:animate-pulse'
+            href='https://goukiet.github.io'
+            target='_blank'
+          >
+            <div class='max-w-sm rounded overflow-hidden shadow-lg'>
+              <img class='w-full' src={Landing} alt='Sunset in the mountains' />
+              <div class='px-6 py-4'>
+                <div class='font-bold text-xl mb-2'>Landing Page</div>
+                <p class='text-gray-700 text-base'>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                  exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div class='px-6 pt-4 pb-2'>
+                <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                  HTML5
+                </span>
+                <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                  CCS
+                </span>
+                <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                  JavaScript
+                </span>
+              </div>
             </div>
-            <div class='px-6 pt-4 pb-2'>
-              <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                HTML5
-              </span>
-              <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                CCS
-              </span>
-              <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                JavaScript
-              </span>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

@@ -14,9 +14,16 @@ const Navbar = () => {
         <span>scubillosq@gmail.com</span>
       </div>
       <div className='container flex gap-2 justify-end'>
-        <a href=''>LinkedIn</a>
+        <a
+          href='https://www.linkedin.com/in/sebasti%C3%A1n-cubillos/'
+          target='_blank'
+        >
+          LinkedIn
+        </a>
         <span> / </span>
-        <a href=''>Github</a>
+        <a href='https://github.com/GoukiET' target='_blank'>
+          Github
+        </a>
       </div>
     </div>
   );
